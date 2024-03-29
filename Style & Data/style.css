@@ -15,6 +15,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Prevent font size inflation */
@@ -100,8 +102,7 @@ textarea:not([rows]) {
 /* Body */
 body {
   font-family: var(--poppins-font);
-  margin: 0;
-  padding: 0;
+  
   background-color: #151617;
   color: #ffff;
 }
@@ -157,16 +158,16 @@ section {
   margin: 80px 0;
 }
 
-.hero-header {
+.hero-header{
   width: 1600px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 8%;
-  margin: 2% 0;
+ 
 }
 
-.hero {
+.hero-wrapper {
   margin: 50px 0;
 }
 
@@ -187,7 +188,7 @@ section {
   text-transform: uppercase;
 }
 
-.hero-container span {
+.hero-container h1 span {
   color: #8d8d8d;
   padding: 0 0px !important;
 }
@@ -238,14 +239,21 @@ section {
   transform: rotate(0deg);
 }
 .hero-icon p{
-  margin: 0 15px;
+  margin: 0px 15px;
 }
 
 .hero-text-container{
-margin:50px 0;
+margin:30px 0;
 display: flex;
 justify-content: center;
 align-items: flex-end;
+}
+
+.hero-text-container p{
+  color:#666666;
+  line-height: 25px;
+  margin-top: 2px;
+  font-size: 17px;
 }
 
 .hero-text-container span{
@@ -254,12 +262,6 @@ align-items: flex-end;
   background-color: #bebebe;
   margin: 0 10px;
   margin-bottom: 5px;
-}
-
-.hero-text-container p{
-  color:#666666;
-  line-height: 25px;
-  margin-top: 5px;
 }
 
 /* Swiper */
