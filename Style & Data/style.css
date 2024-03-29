@@ -192,7 +192,7 @@ section {
   color: #8d8d8d;
   padding: 0 0px !important;
 }
-.hero-icon {
+.main-icon {
   display: flex;
   align-items: center;
   margin-top: 30px;
@@ -201,7 +201,7 @@ section {
   justify-content: center;
 }
 
-.hero-icon::after {
+.main-icon::after {
   position: absolute;
   content: "";
   top: 0px;
@@ -214,11 +214,11 @@ section {
   transition: all 0.5s;
 }
 
-.hero-icon:hover::after {
+.main-icon:hover::after {
   width: 100%;
   left: 0px;
 }
-.hero-icon i {
+.main-icon i {
   transform: rotate(-50deg);
   background-color: var(--main-color);
   color: #000;
@@ -233,12 +233,12 @@ section {
   transition: 1.2s;
 }
 
-.hero-icon:hover i {
+.main-icon:hover i {
   background-color: transparent;
   color: var(--main-color);
   transform: rotate(0deg);
 }
-.hero-icon p{
+.main-icon p{
   margin: 0px 15px;
 }
 
