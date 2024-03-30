@@ -419,7 +419,7 @@ section {
   width: 20px;
   height: 20px;
   border-radius: 100px;
-  background-color:var(--sub-color);
+  background-color: var(--sub-color);
 }
 .point2::after {
   content: "";
@@ -432,7 +432,7 @@ section {
   background-color: var(--sub-color);
 }
 
-.point3::after{
+.point3::after {
   content: "";
   position: absolute;
   top: -11px;
@@ -443,7 +443,7 @@ section {
   background-color: var(--sub-color);
 }
 
-.point4::after{
+.point4::after {
   content: "";
   position: absolute;
   top: -11px;
@@ -454,10 +454,83 @@ section {
   background-color: var(--sub-color);
 }
 
-.bottom-work-box{
-display:flex;
-justify-content: space-around;
-align-items: center;
-margin-top:50px;
+.bottom-work-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
 }
 
+/* Fourth Section - Apartment */
+
+.house-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
+  padding-top: 100px;
+}
+
+.house-image {
+  width: 80%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.house-image img {
+  width: 85%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.house-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80%;
+}
+
+.house-info-container h1 {
+  font-size: 80px;
+  font-weight: 300;
+}
+
+
+
+.house-info container p {
+  line-height: 25px;
+  color: #bebebe;
+  width: 90%;
+  margin: 20px 0;
+}
+.house-info {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.info {
+  width: 40%;
+  background-color: #151617;
+  border: 1px solid var(--sub-color);
+  margin: 15px;
+  position: relative;
+  right: 30px;
+  padding: 15px 20px;
+}
+
+.info h3,h2{
+  padding:5px;
+  margin:0 5px;
+}
+
+.info h2{
+  color: var(--main-color) !important;
+  font-weight: 400;
+}
+
+.info h3{
+  color:var(--sub-color);
+}
