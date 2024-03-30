@@ -413,43 +413,51 @@ section {
 
 .point1::after {
   content: "";
-  position: aboslute;
+  position: absolute;
   top: -11px;
   left: 0;
   width: 20px;
   height: 20px;
   border-radius: 100px;
-  background-color: red;
+  background-color:var(--sub-color);
 }
 .point2::after {
   content: "";
-  position: aboslute;
+  position: absolute;
   top: -11px;
   left: 35%;
   width: 20px;
   height: 20px;
   border-radius: 100px;
-  background-color: red;
+  background-color: var(--sub-color);
 }
 
-.point3::after::after {
+.point3::after{
   content: "";
-  position: aboslute;
+  position: absolute;
   top: -11px;
   left: 70%;
   width: 20px;
   height: 20px;
   border-radius: 100px;
-  background-color: red;
+  background-color: var(--sub-color);
 }
 
-.point4::after::after {
+.point4::after{
   content: "";
-  position: aboslute;
+  position: absolute;
   top: -11px;
   left: 100%;
   width: 20px;
   height: 20px;
   border-radius: 100px;
-  background-color: red;
+  background-color: var(--sub-color);
 }
+
+.bottom-work-box{
+display:flex;
+justify-content: space-around;
+align-items: center;
+margin-top:50px;
+}
+
