@@ -499,11 +499,11 @@ section {
 
 
 .house-info container p {
-  line-height: 25px;
+  line-height: 3;
   color: #bebebe;
   width: 90%;
   margin: 20px 0;
-}
+  }
 .house-info {
   display: flex;
   flex-wrap: nowrap;
@@ -511,26 +511,3 @@ section {
   align-items: flex-start;
 }
 
-.info {
-  width: 40%;
-  background-color: #151617;
-  border: 1px solid var(--sub-color);
-  margin: 15px;
-  position: relative;
-  right: 30px;
-  padding: 15px 20px;
-}
-
-.info h3,h2{
-  padding:5px;
-  margin:0 5px;
-}
-
-.info h2{
-  color: var(--main-color) !important;
-  font-weight: 400;
-}
-
-.info h3{
-  color:var(--sub-color);
-}
