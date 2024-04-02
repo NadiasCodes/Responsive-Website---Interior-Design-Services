@@ -496,14 +496,12 @@ section {
   font-weight: 300;
 }
 
-
-
 .house-info container p {
   line-height: 3;
   color: #bebebe;
   width: 90%;
   margin: 20px 0;
-  }
+}
 .house-info {
   display: flex;
   flex-wrap: nowrap;
@@ -511,3 +509,76 @@ section {
   align-items: flex-start;
 }
 
+/* Contact */
+.contact {
+  color: #fff;
+  padding: 80px 20px;
+  border: 1px solid black;
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-main {
+  width: 80%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-main h1 {
+  text-align: center;
+}
+
+.contact-main p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.532);
+  margin-bottom: 50px;
+}
+
+.contact-main div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.contact-main textarea,
+.contact-main input {
+  width: 1005px;
+  height: 50px;
+  background-color: transparent;
+  outline: none;
+  padding: 10px;
+  color: var(--main-color);
+  border: 1px solid (255, 255, 255, 0.273);
+}
+.contact-main textarea {
+  height: 150px;
+}
+
+.contact-main button {
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  color: var(--main-color);
+  border: 1px solid rgba(255, 255, 255, 0.161);
+  background-color: rgba(0, 0, 0, 02.525);
+  transition: all 0.5s ease-in-out;
+}
+
+.contact-main button:hover{
+
+  background-color: var(--main-color);
+  color: var(--sub-color);
+}
